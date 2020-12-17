@@ -1,0 +1,58 @@
+---
+title: "A study of risk of fatal accidents for men and women based on UK road accident data"
+author: 'Liyuan Cao'
+date: "Dec 16, 2020"
+abstract: |
+  |   This study is aimed to investigate the questions of interest that whether women tends to be safer than men as pedestrians especially for teenagers in early adulthood. The goal of the study is try to apply statistical models such as  logistic model to answer the question of interest based on the UK road accident data. This study found that the women in teenagers or in early adulthood are indeed tend to be more safer than men as pedestrians that shows a significant lower proportion involved in fatal accidents.
+  |
+  | **Keywords:**  road accidents; fatal accidents; logistic model
+output:
+  bookdown::pdf_document2:
+toc: FALSE
+---
+
+
+# Introduction
+
+It is known that men have more accidents than women. It is claimed that the proportion of fatal accidents for men is higher than the proportion of fatal accidents for women which means men are more often invovled with fatal accidents that women did. This fact may be partly due to the reason that women are less likely to 
+walk outdoors late at night or in bad weather than men. This may also due to the reason that men are more likely to do risky behaviours on average than women. Under this background, this study is aimed to assess whether the findings  are consistent with the assumptions as below based on UK road accident data. 
+
+The questions of interest are that whether women tends to be safer than men as pedestrians especially for teenagers in early adulthood. The goal of the study is try to apply statistical models to answer the question of interest based on the UK road accident data.
+
+
+# Data
+
+The source data comes from the UK road accident data. UK road accident data, data  source https://www.gov.uk/government/collections/road-accidents-and-safety-statistics.  It contains accidents factor or slight as well as light conditions, weather conditions and basic characteristics such as age, sex for men and women who are involved in the accidents. 
+
+
+# Model 
+
+The model used in this study is a logistic model.
+
+
+$$logit(accident = fatal) = \beta_0 + \beta_1 sex + \beta_2 age + \beta_3 \text{light condition} + \beta_4 \text{weather conditions}$$
+
+
+where accident is fatal or not is the response which is a binary outcome, the left variables are covariates. 
+
+
+# Results
+
+It was mainly shown in the model estimates that male has an lower probability of involved with female in road fatal accidents, also, for age groups, younger ones show less probability in involving fatal accidents. 
+
+Also, we find in this study based on the model that ...
+
+
+# Discussion
+
+
+# References
+
+# Appendix
+
+
+
+
+
+
+
